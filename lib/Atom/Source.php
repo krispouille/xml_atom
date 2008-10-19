@@ -1,15 +1,45 @@
 <?php
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 /**
- * @package Atom
+ *
+ * PHP version 5
+ *
+ * LICENSE: This source file is subject to version 2.1 of the GNU Lesser General Public License
+ * that is available through the world-wide-web at the following URI:
+ * http://www.gnu.org/copyleft/lesser.html.
+ *
+ * @package    Atom
+ * @author     Chrislain Jemba <krispouille@gmail.com>
+ * @link       http://github.com/krispouille/xml_atom/tree/5646c7d463c3667afbb02fb9502fe766648af6e3/lib/Atom/Source.php
+ * @license    http://www.gnu.org/copyleft/lesser.html  LGPL 2.1
+ * @copyright  2008
+ * @version    CVS: $Id:$
  */
+
 require_once dirname(__FILE__).'/Element.php';
 /**
- * @author Chrislain Jemba <krispouille@gmail.com>
- * @license LGPL
+ * this class provides methods to handle an atom:source element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.source
- * provide methods to handle atom:source element
+ * @example valid atom:source element
+ *  <source>
+ *   <title>this is a title</title>
+ *   <id>http://www.validome.org/id/1234</id>
+ *   <updated>2006-10-10T17:46:27Z</updated>
+ *   <author>
+ *     <name>test name</name>
+ *   </author>
+ * </source>
  *
- */
+ * @example valid Atom_Category element
+ * <code>
+ * $source = new Atom_Source();
+ * $source->setTitle('this is a title');
+ * $source->setId('http://www.validome.org/id/1234');
+ * $source->setUpdated(new Atom_Updated(new DateTime('2006-10-10 17:46:27')));
+ * $source->addAuthor(new Atom_Author('test name'));
+ * </code> 
+ */ 
+
 class Atom_Source extends Atom_Element
 {
     /**

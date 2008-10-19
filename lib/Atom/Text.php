@@ -17,7 +17,7 @@
  */
 require_once dirname(__FILE__).'/Element.php';
 /**
- * this class provides methods to handle atom:rights, atom:title, atom:subtitle, atom:icon, atom:id and atom:summary elements
+ * this class provides methods to handle atom:rights, atom:title, atom:subtitle, atom:icon, atom:id, atom:link, atom:logo, atom:rights and atom:summary elements
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#text.constructs
  */
 

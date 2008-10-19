@@ -1,15 +1,33 @@
 <?php
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 /**
- * @package Atom
+ *
+ * PHP version 5
+ *
+ * LICENSE: This source file is subject to version 2.1 of the GNU Lesser General Public License
+ * that is available through the world-wide-web at the following URI:
+ * http://www.gnu.org/copyleft/lesser.html.
+ *
+ * @package    Atom
+ * @author     Chrislain Jemba <krispouille@gmail.com>
+ * @link       http://github.com/krispouille/xml_atom/tree/5646c7d463c3667afbb02fb9502fe766648af6e3/lib/Atom/Published.php
+ * @license    http://www.gnu.org/copyleft/lesser.html  LGPL 2.1
+ * @copyright  2008
+ * @version    CVS: $Id:$
  */
+
 require_once dirname(__FILE__).'/Element.php';
 /**
- * @author Chrislain Jemba <krispouille@gmail.com>
- * @license LGPL
+ * this class provides methods to handle an atom:published element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.published
- * provide methods to handle atom:published element
- *
- */
+ * @example valid atom:published element
+ *  <published>2003-12-13T08:29:29-04:00</published>
+ * 
+ * @example valid Atom_Published element
+ * <code>
+ * $published = new Atom_Published(new DateTime('2003-12-13 08:29:29'));
+ * </code> 
+ */ 
 class Atom_Published extends Atom_Date
 {
     /**
