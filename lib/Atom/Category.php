@@ -17,7 +17,7 @@
  */
 require_once dirname(__FILE__).'/Element.php';
 /**
- * this class provides methods to handle an atom:category
+ * this class provides methods to handle an atom:category element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.category
  * @example valid atom:category elements 
  * <category term="cars" />

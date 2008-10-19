@@ -1,6 +1,19 @@
 <?php
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 /**
- * @package Atom
+ *
+ * PHP version 5
+ *
+ * LICENSE: This source file is subject to version 2.1 of the GNU Lesser General Public License
+ * that is available through the world-wide-web at the following URI:
+ * http://www.gnu.org/copyleft/lesser.html.
+ *
+ * @package    Atom
+ * @author     Chrislain Jemba <krispouille@gmail.com>
+ * @link       http://github.com/krispouille/xml_atom/tree/5646c7d463c3667afbb02fb9502fe766648af6e3/lib/Atom/Element.php
+ * @license    http://www.gnu.org/copyleft/lesser.html  LGPL 2.1
+ * @copyright  2008
+ * @version    CVS: $Id:$
  */
 require_once dirname(__FILE__).'/Exception.php';
 require_once dirname(__FILE__).'/Text.php';
@@ -26,11 +39,10 @@ require_once dirname(__FILE__).'/Summary.php';
 require_once dirname(__FILE__).'/Title.php';
 require_once dirname(__FILE__).'/Updated.php';
 /**
- * @author Chrislain Jemba <krispouille@gmail.com>
- * @license LGPL
+ * 
  * this class extends a DOMDcoument by proposing in addition, methods to handle atom elements 
  * thus, an Atom_Feed extends an Atom_Element which also extends a DOMDocument 
- * i choose DOMDocument, because it's the only way to handle at the same time nodes, and their display  
+ * i choose DOMDocument (instead of DOMElement), because it's the only way to handle at the same time nodes, and their display  
  * 
  */
 class Atom_Element extends DOMDocument

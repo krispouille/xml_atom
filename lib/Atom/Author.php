@@ -19,7 +19,7 @@
 require_once dirname(__FILE__).'/Element.php';
 
 /**
- * this class provides methods to handle an atom:author
+ * this class provides methods to handle an atom:author element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.author
  * @example a valid atom:author element 
  * <author>

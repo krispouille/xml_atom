@@ -1,14 +1,65 @@
 <?php
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 /**
- * @package Atom
+ *
+ * PHP version 5
+ *
+ * LICENSE: This source file is subject to version 2.1 of the GNU Lesser General Public License
+ * that is available through the world-wide-web at the following URI:
+ * http://www.gnu.org/copyleft/lesser.html.
+ *
+ * @package    Atom
+ * @author     Chrislain Jemba <krispouille@gmail.com>
+ * @link       http://github.com/krispouille/xml_atom/tree/5646c7d463c3667afbb02fb9502fe766648af6e3/lib/Atom/Entry.php
+ * @license    http://www.gnu.org/copyleft/lesser.html  LGPL 2.1
+ * @copyright  2008
+ * @version    CVS: $Id:$
  */
 require_once dirname(__FILE__).'/Element.php';
 /**
- * @author Chrislain Jemba <krispouille@gmail.com>
- * @license LGPL
+ * this class provides methods to handle an atom:entry element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.entry
- * provide methods to handle atom:entry element
+ * @example a valid atom:entry element 
+ * <entry>
+ *   <title>Atom draft-07 snapshot</title>
+ *   <link rel="alternate" type="text/html" href="http://example.org/2005/04/02/atom"/>
+ *   <link rel="enclosure" type="audio/mpeg" length="1337" href="http://example.org/audio/ph34r_my_podcast.mp3"/>
+ *   <id>tag:example.org,2003:3.2397</id>
+ *   <updated>2005-07-31T12:29:29Z</updated>
+ *   <published>2003-12-13T08:29:29-04:00</published>
+ *   <author>
+ *     <name>Mark Pilgrim</name>
+ *     <uri>http://example.org/</uri>
+ *     <email>f8dy@example.com</email>
+ *   </author>
+ *   <contributor>
+ *     <name>Sam Ruby</name>
+ *   </contributor>
+ *   <contributor>
+ *     <name>Joe Gregorio</name>
+ *   </contributor>
+ *   <content type="xhtml" xml:lang="en" 
+ *    xml:base="http://diveintomark.org/">
+ *     <div xmlns="http://www.w3.org/1999/xhtml">
+ *       <p><i>[Update: The Atom draft is finished.]</i></p>
+ *     </div>
+ *   </content>
+ * </entry>
  *
+ * @example a valid Atom_Entry element
+ * <code>
+ * $entry = new Atom_Entry();
+ * $entry->setTitle(new Atom_Title('Atom draft-07 snapshot'));
+ * $entry->addLink(new Atom_Link('',array('rel'=>'alternate','type'=>'text/html', 'href'=>'http://example.org/2005/04/02/atom')));
+ * $entry->addLink(new Atom_Link('',array('rel'=>'enclosure','type'=>'audio/mpeg', 'length'=>'1337', 'href'=>'http://example.org/audio/ph34r_my_podcast.mp3')));
+ * $entry->setId(new Atom_Id('tag:example.org,2003:3.2397'));
+ * $entry->setUpdated(new Atom_Updated('2005-07-31T12:29:29Z'));
+ * $entry->setPublished(new Atom_Published('2003-12613T08:29:29-04:00'));
+ * $entry->addAuthor(new Atom_Author('Mark Pilgrim','f8dy@example.org','http://example.org'));
+ * $entry->addContributor(new Atom_Contributor('Sam Ruby'));
+ * $entry->addContributor(new Atom_Contributor('Joe Gregorio'));
+ * $entry->setContent('<p><i>[Update: The Atom draft is finished.]</i></p>');
+ * </code> 
  */
 class Atom_Entry extends Atom_Element
 {
