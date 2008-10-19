@@ -9,11 +9,10 @@
  * http://www.gnu.org/copyleft/lesser.html.
  *
  * @package    Atom
- * @version    Release: @package_version@
  * @author     Chrislain Jemba <krispouille@gmail.com>
- * @link       http://pear.php.net/package/XML_Atom
+ * @link       http://github.com/krispouille/xml_atom/tree/5646c7d463c3667afbb02fb9502fe766648af6e3/lib/Atom/Author.php
  * @license    http://www.gnu.org/copyleft/lesser.html  LGPL 2.1
- * @copyright  2008 LETSBUYIT
+ * @copyright  2008
  * @version    CVS: $Id:$
  */
 
@@ -21,7 +20,7 @@ require_once dirname(__FILE__).'/Element.php';
 
 /**
  * this class provides methods to handle an atom:author
- * 
+ * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.author
  * @example a valid atom:author element 
  * <author>
  *  <name>Jemba</name>
