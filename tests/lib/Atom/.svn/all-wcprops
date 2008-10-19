@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom
+END
+Element.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Element.php
+END
+Subtitle.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Subtitle.php
+END
+Id.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Id.php
+END
+Link.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Link.php
+END
+Summary.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Summary.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Exception.php
+END
+Logo.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Logo.php
+END
+Rights.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Rights.php
+END
+Source.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Source.php
+END
+Entry.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Entry.php
+END
+Author.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Author.php
+END
+Feed.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Feed.php
+END
+Person.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Person.php
+END
+Content.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Content.php
+END
+Contributor.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Contributor.php
+END
+Category.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Category.php
+END
+Date.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Date.php
+END
+Published.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Published.php
+END
+Title.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Title.php
+END
+Text.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Text.php
+END
+Generator.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Generator.php
+END
+Updated.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Updated.php
+END
+Icon.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4585/lbi-atom-dom/lib/Atom/Icon.php
+END

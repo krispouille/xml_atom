@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/4585/lbi-atom-dom/tests
+END
+ElementTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4585/lbi-atom-dom/tests/ElementTest.php
+END
+AllTests.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4604/lbi-atom-dom/tests/AllTests.php
+END
+SubtitleTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/4604/lbi-atom-dom/tests/SubtitleTest.php
+END
+IdTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/4604/lbi-atom-dom/tests/IdTest.php
+END
+LinkTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4604/lbi-atom-dom/tests/LinkTest.php
+END
+SummaryTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4604/lbi-atom-dom/tests/SummaryTest.php
+END
+LogoTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4604/lbi-atom-dom/tests/LogoTest.php
+END
+RightsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4604/lbi-atom-dom/tests/RightsTest.php
+END
+SourceTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4604/lbi-atom-dom/tests/SourceTest.php
+END
+EntryTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4585/lbi-atom-dom/tests/EntryTest.php
+END
+AuthorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4585/lbi-atom-dom/tests/AuthorTest.php
+END
+FeedTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4585/lbi-atom-dom/tests/FeedTest.php
+END
+PersonTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4585/lbi-atom-dom/tests/PersonTest.php
+END
+ContentTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4585/lbi-atom-dom/tests/ContentTest.php
+END
+ContributorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/4585/lbi-atom-dom/tests/ContributorTest.php
+END
+CategoryTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/4585/lbi-atom-dom/tests/CategoryTest.php
+END
+PublishedTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/4585/lbi-atom-dom/tests/PublishedTest.php
+END
+TitleTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4585/lbi-atom-dom/tests/TitleTest.php
+END
+TextTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4604/lbi-atom-dom/tests/TextTest.php
+END
+GeneratorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/4585/lbi-atom-dom/tests/GeneratorTest.php
+END
+UpdatedTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4585/lbi-atom-dom/tests/UpdatedTest.php
+END
+IconTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4604/lbi-atom-dom/tests/IconTest.php
+END
