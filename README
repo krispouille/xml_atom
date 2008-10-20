@@ -1,6 +1,6 @@
 XML_Atom
 
-Author : JEMBA Chrislain
+Author : JEMBA Chrislain <krispouille@gmail.com>
 
 Library to easily handle atom feeds. You could :
 - convert an atom feed (xml) into a php object
