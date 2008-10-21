@@ -20,13 +20,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:id element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.id
- * @example valid atom:id element
- * <id>tag:example.org,2003:3.2397</id>
- *
- * @example valid Atom_Id element
- * <code>
- * $id = new Atom_Id('tag:example.org,2003:3.2397');
- * </code> 
+ * @example ../../fixtures/id.xml atom:id (xml version)
+ * @example ../../fixtures/id.php atom:id (php version) 
  */
 class Atom_Id extends Atom_Text
 {

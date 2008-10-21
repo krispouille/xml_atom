@@ -20,13 +20,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:updated element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.updated
- * @example valid atom:updated element
- *  <updated>2003-12-13T08:29:29-04:00</updated>
- * 
- * @example valid Atom_Updated element
- * <code>
- * $updated = new Atom_Updated(new DateTime('2003-12-13 08:29:29'));
- * </code> 
+ * @example ../../fixtures/updated.xml atom:updated (xml version)
+ * @example ../../fixtures/updated.php atom:updated (php version)
  */ 
 class Atom_Updated extends Atom_Date
 {

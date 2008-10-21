@@ -21,14 +21,8 @@ require_once dirname(__FILE__).'/Element.php';
  * this class provides methods to handle an atom:category element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.generator
  * @example valid atom:category element
- * <generator uri="http://www.example.com/" version="1.0">
- *   Example Toolkit
- * </generator> 
- *
- * @example valid Atom_Generator element
- * <code>
- * $generator = new Atom_Generator('Example Toolkit',array('uri'=>'http://www.example.com/', 'version'=>'1.0');
- * </code> 
+ * @example ../../fixtures/generator.xml atom:generator (xml version)
+ * @example ../../fixtures/generator.php atom:generator (php version) 
  */
 
 class Atom_Generator extends Atom_Text

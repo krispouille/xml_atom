@@ -9,6 +9,7 @@
  * http://www.gnu.org/copyleft/lesser.html.
  *
  * @package    Atom
+ * @filesource
  * @author     Chrislain Jemba <krispouille@gmail.com>
  * @link       http://github.com/krispouille/xml_atom/tree/5646c7d463c3667afbb02fb9502fe766648af6e3/lib/Atom/Author.php
  * @license    http://www.gnu.org/copyleft/lesser.html  LGPL 2.1
@@ -21,17 +22,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:author element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.author
- * @example a valid atom:author element 
- * <author>
- *  <name>Jemba</name>
- *  <email>krispouille@gmail.com</email>
- *  <uri>http://my-uri.com</uri>
- * </author>
- * 
- * @example a valid Atom_Author element
- * <code>
- * $author = new Atom_Author('Jemba','krispouille@gmail.com','http://my-uri.com');
- * </code> 
+ * @example ../../fixtures/author.xml atom:author (xml version)
+ * @example ../../fixtures/author.php atom:author (php version) 
  */
 
 class Atom_Author extends Atom_Person

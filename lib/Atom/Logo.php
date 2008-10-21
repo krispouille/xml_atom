@@ -19,13 +19,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:logo element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.logo
- * @example valid atom:logo element
- * <logo>http://www.validome.org/small.jpg</logo>
- * 
- * @example valid Atom_Logo element
- * <code>
- * $logo = new Atom_Logo('http://www.validome.org/small.jpg');
- * </code> 
+ * @example ../../fixtures/logo.xml atom:logo (xml version)
+ * @example ../../fixtures/logo.php atom:logo (php version) 
  */
 class Atom_Logo extends Atom_Text
 {

@@ -19,15 +19,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:category element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.category
- * @example valid atom:category elements 
- * <category term="cars" />
- * <category term="technology">CPU</category>
- * 
- * @example valid Atom_Category elements
- * <code>
- * $c1 = new Atom_Category('',array('term'=>'cars');
- * $c2 = new Atom_Category('CPU',array('term'=>'technology');
- * </code> 
+ * @example ../../fixtures/category.xml atom:category (xml version)
+ * @example ../../fixtures/category.php atom:category (php version) 
  */
 
 class Atom_Category extends Atom_Text

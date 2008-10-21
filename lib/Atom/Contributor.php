@@ -19,17 +19,9 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:author element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.contributor
- * @example a valid atom:contributor element 
- * <contributor>
- *  <name>Jemba</name>
- *  <email>krispouille@gmail.com</email>
- *  <uri>http://my-uri.com</uri>
- * </contributor>
- * 
- * @example a valid Atom_Contributor element
- * <code>
- * $contributor = new Atom_Contributor('Jemba','krispouille@gmail.com','http://my-uri.com');
- * </code> 
+ * @example ../../fixtures/contributor.xml atom:contributor (xml version)
+ * @example ../../fixtures/contributor.php atom:contributor (php version)
+ *
  */
 
 class Atom_Contributor extends Atom_Person

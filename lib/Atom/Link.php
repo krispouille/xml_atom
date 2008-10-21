@@ -20,13 +20,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:link element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.link
- * @example valid atom:link element
- *  <link rel="alternate" type="text/html" href="http://example.org/2005/04/02/atom"/>
- * 
- * @example valid Atom_Category element
- * <code>
- * $link = new Atom_Link('',array('rel'=>'alternate', 'type'=>'text/html', 'href'=>'http://example.org/2005/04/02/atom');
- * </code> 
+ * @example ../../fixtures/link.xml atom:link (xml version)
+ * @example ../../fixtures/link.php atom:link (php version) 
  */ 
 class Atom_Link extends Atom_Text
 {

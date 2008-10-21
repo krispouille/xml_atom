@@ -20,13 +20,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:published element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.published
- * @example valid atom:published element
- *  <published>2003-12-13T08:29:29-04:00</published>
- * 
- * @example valid Atom_Published element
- * <code>
- * $published = new Atom_Published(new DateTime('2003-12-13 08:29:29'));
- * </code> 
+ * @example ../../fixtures/published.xml atom:published (xml version)
+ * @example ../../fixtures/published.php atom:published (php version)
  */ 
 class Atom_Published extends Atom_Date
 {

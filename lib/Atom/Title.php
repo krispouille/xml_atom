@@ -19,13 +19,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:title element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.title
- * @example valid atom:title element
- * <title>http://www.validome.org/small.jpg</title>
- * 
- * @example valid Atom_Title element
- * <code>
- * $title = new Atom_Title('http://www.validome.org/small.jpg');
- * </code> 
+ * @example ../../fixtures/title.xml atom:title (xml version)
+ * @example ../../fixtures/title.php atom:title (php version)
  */
 class Atom_Title extends Atom_Text
 {

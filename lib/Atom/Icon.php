@@ -19,13 +19,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:icon element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.icon
- * @example valid atom:icon element
- * <icon>http://www.validome.org/icon.gif</icon>
- *
- * @example valid Atom_Icon element
- * <code>
- * $icon = new Atom_Icon('http://www.validome.org/icon.gif');
- * </code> 
+ * @example ../../fixtures/icon.xml atom:icon (xml version)
+ * @example ../../fixtures/icon.php atom:icon (php version) 
  */
 
 class Atom_Icon extends Atom_Text

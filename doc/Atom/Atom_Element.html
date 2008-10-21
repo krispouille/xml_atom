@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Atom_Element</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name"><img src="../media/images/Class_logo.png"
+														alt=" Class"
+														title=" Class"
+														style="vertical-align: middle"> Atom_Element</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|													<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">this class extends a DOMDcoument by proposing in addition, methods to handle atom elements</p>
+<p class="description"><p>thus, an Atom_Feed extends an Atom_Element which also extends a DOMDocument  i choose DOMDocument (instead of DOMElement), because it's the only way to handle at the same time nodes, and their display</p></p>
+		<p class="notes">
+			Located in <a class="field" href="_Element.php.html">/Element.php</a> (line <span class="field"><a href="../__filesource/fsource_Atom__Element.php.html#a48">48</a></span>)
+		</p>
+		
+				
+		<pre>DOMDocument
+   |
+   --Atom_Element</pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; white-space: nowrap">
+						<img src="../media/images/Class.png"
+								 alt=" class"
+								 title=" class"
+								 style="vertical-align: center"/>
+						<a href="../Atom/Atom_Date.html">Atom_Date</a>
+					</td>
+					<td>
+											this class provides methods to handle atom:published and atom:updated elements
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; white-space: nowrap">
+						<img src="../media/images/Class.png"
+								 alt=" class"
+								 title=" class"
+								 style="vertical-align: center"/>
+						<a href="../Atom/Atom_Text.html">Atom_Text</a>
+					</td>
+					<td>
+											this class provides methods to handle atom:rights, atom:title, atom:subtitle, atom:icon, atom:id, atom:link, atom:logo, atom:rights and atom:summary elements
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; white-space: nowrap">
+						<img src="../media/images/Class.png"
+								 alt=" class"
+								 title=" class"
+								 style="vertical-align: center"/>
+						<a href="../Atom/Atom_Source.html">Atom_Source</a>
+					</td>
+					<td>
+											this class provides methods to handle an atom:source element
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; white-space: nowrap">
+						<img src="../media/images/Class.png"
+								 alt=" class"
+								 title=" class"
+								 style="vertical-align: center"/>
+						<a href="../Atom/Atom_Person.html">Atom_Person</a>
+					</td>
+					<td>
+											this class provides methods to handle atom:author, atom:contributor elements
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; white-space: nowrap">
+						<img src="../media/images/Class.png"
+								 alt=" class"
+								 title=" class"
+								 style="vertical-align: center"/>
+						<a href="../Atom/Atom_Feed.html">Atom_Feed</a>
+					</td>
+					<td>
+											this class provides methods to handle an atom:feed element
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; white-space: nowrap">
+						<img src="../media/images/Class.png"
+								 alt=" class"
+								 title=" class"
+								 style="vertical-align: center"/>
+						<a href="../Atom/Atom_Entry.html">Atom_Entry</a>
+					</td>
+					<td>
+											this class provides methods to handle an atom:entry element
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																				<div class="method-definition">
+					<img src="../media/images/StaticMethod.png" alt=" "/>
+											static <span class="method-result"><a href="../Atom/Atom_Element.html">Atom_Element</a></span>
+										<a href="#fromXml" title="details" class="method-name">fromXml</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$xml</span>)
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/StaticMethod.png" alt=" "/>
+											static <span class="method-result"><a href="../Atom/Atom_Element.html">Atom_Element</a></span>
+										<a href="#fromXmlFile" title="details" class="method-name">fromXmlFile</a>
+											([<span class="var-type">string</span>&nbsp;<span class="var-name">$path</span> = <span class="var-default">null</span>])
+									</div>
+																								<div class="method-definition">
+					<img src="../media/images/StaticMethod.png" alt=" "/>
+											static <span class="method-result">Array</span>
+										<a href="#getAllAttributes" title="details" class="method-name">getAllAttributes</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/StaticMethod.png" alt=" "/>
+											static <span class="method-result">DOMDocument</span>
+										<a href="#getDomFromXml" title="details" class="method-name">getDomFromXml</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$xml</span>)
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/StaticMethod.png" alt=" "/>
+											static <span class="method-result">DOMDocument</span>
+										<a href="#getDomFromXmlFile" title="details" class="method-name">getDomFromXmlFile</a>
+											([<span class="var-type">string</span>&nbsp;<span class="var-name">$path</span> = <span class="var-default">null</span>])
+									</div>
+																																<div class="method-definition">
+					<img src="../media/images/StaticMethod.png" alt=" "/>
+											static <span class="method-result"><a href="../Atom/Atom_Element.html">Atom_Element</a></span>
+										<a href="#getInstance" title="details" class="method-name">getInstance</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$obj</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span> = <span class="var-default">''</span>])
+									</div>
+																																																				<div class="method-definition">
+					<img src="../media/images/Constructor.png" alt=" "/>
+											<span class="method-result">Atom_Element</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											([<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span> = <span class="var-default">''</span>])
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#add" title="details" class="method-name">add</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$dom</span>)
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#addElement" title="details" class="method-name">addElement</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+									</div>
+																																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">Atom_*</span>
+										<a href="#get" title="details" class="method-name">get</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span>)
+									</div>
+																																								<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result"><a href="../Atom/Atom_Element.html">Atom_Element</a></span>
+										<a href="#getElement" title="details" class="method-name">getElement</a>
+											([<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span> = <span class="var-default">''</span>])
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">Array</span>
+										<a href="#getElements" title="details" class="method-name">getElements</a>
+											([<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span> = <span class="var-default">''</span>])
+									</div>
+																								<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#init" title="details" class="method-name">init</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$element</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#set" title="details" class="method-name">set</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setAttributes" title="details" class="method-name">setAttributes</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$attributes</span> = <span class="var-default">array()</span>])
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#toString" title="details" class="method-name">toString</a>
+										()
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+													<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodfromXml" id="fromXml"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/StaticMethod.png" />
+		<span class="method-title">static fromXml</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a226">226</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">return an Atom_* instance from an xml if the root tag name is recognized as an atom element  otherwise, return an Atom_Element instance  all comments nodes are ignored and not parsed</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">example:</span> example not found</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../Atom/Atom_Element.html">Atom_Element</a></span>
+		<span class="method-name">
+			fromXml
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$xml</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$xml</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfromXmlFile" id="fromXmlFile"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/StaticMethod.png" />
+		<span class="method-title">static fromXmlFile</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a250">250</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">return an Atom_* instance from an xml file if the root tag name is recognized as an atom element  otherwise, return an Atom_Element instance  all comments nodes are ignored and not parsed</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">example:</span> example not found</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../Atom/Atom_Element.html">Atom_Element</a></span>
+		<span class="method-name">
+			fromXmlFile
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$path</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$path</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetAllAttributes" id="getAllAttributes"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/StaticMethod.png" />
+		<span class="method-title">static getAllAttributes</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a283">283</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">parse all the attributes (including namespaces) of a DOMElement</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> which regroup pairs [key,value] of attributes founded</li>
+				<li><span class="field">deprecated:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Array</span>
+		<span class="method-name">
+			getAllAttributes
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">DOMElement</span>
+				<span class="var-name">$element</span><span class="var-description">: element to parse</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetDomFromXml" id="getDomFromXml"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/StaticMethod.png" />
+		<span class="method-title">static getDomFromXml</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a112">112</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">return a DOMDocument instance from an xml string</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">DOMDocument</span>
+		<span class="method-name">
+			getDomFromXml
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$xml</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$xml</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetDomFromXmlFile" id="getDomFromXmlFile"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/StaticMethod.png" />
+		<span class="method-title">static getDomFromXmlFile</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a138">138</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">return a DOMDocument instance from an xml file</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">DOMDocument</span>
+		<span class="method-name">
+			getDomFromXmlFile
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$path</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$path</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetInstance" id="getInstance"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/StaticMethod.png" />
+		<span class="method-title">static getInstance</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a325">325</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">return an Atom_* instance from a tag name and a DOMDocument</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../Atom/Atom_Element.html">Atom_Element</a></span>
+		<span class="method-name">
+			getInstance
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$obj</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$obj</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$tagName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Constructor.png" />
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a62">62</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">constructor  set up an Atom_Element instance</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">example:</span> example not found</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Atom_Element</span>
+		<span class="method-name">
+			__construct
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$tagName</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt>DOMDocument::constructor __construct (  )</dt>
+					</dl>
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../Atom/Atom_Date.html#method__construct">Atom_Date::__construct()</a>
+								: constructor  set up an Atom_Date instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Updated.html#method__construct">Atom_Updated::__construct()</a>
+								: constructor  set up an Atom_Updated instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Published.html#method__construct">Atom_Published::__construct()</a>
+								: constructor  set up an Atom_Published instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Text.html#method__construct">Atom_Text::__construct()</a>
+								: constructor  set up an Atom_Text instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Icon.html#method__construct">Atom_Icon::__construct()</a>
+								: constructor  set up an Atom_Icon instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Title.html#method__construct">Atom_Title::__construct()</a>
+								: constructor  set up an Atom_title instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Category.html#method__construct">Atom_Category::__construct()</a>
+								: constructor  set up an Atom_Category instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Subtitle.html#method__construct">Atom_Subtitle::__construct()</a>
+								: constructor  set up an Atom_Subtitle
+							</li>
+					<li>
+				<a href="../Atom/Atom_Logo.html#method__construct">Atom_Logo::__construct()</a>
+								: constructor  set up an Atom_Logo instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Link.html#method__construct">Atom_Link::__construct()</a>
+								: constructor  set up an Atom_Link instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Content.html#method__construct">Atom_Content::__construct()</a>
+								: constructor  set up an Atom_Content instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Id.html#method__construct">Atom_Id::__construct()</a>
+								: constructor  set up an Atom_Id instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Generator.html#method__construct">Atom_Generator::__construct()</a>
+								: constructor  set up an Atom_Generator instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Rights.html#method__construct">Atom_Rights::__construct()</a>
+								: constructor  set up an Atom_Rights instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Summary.html#method__construct">Atom_Summary::__construct()</a>
+								: Enter description here...
+							</li>
+					<li>
+				<a href="../Atom/Atom_Source.html#method__construct">Atom_Source::__construct()</a>
+								: constructor  set up an Atom_Source instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Person.html#method__construct">Atom_Person::__construct()</a>
+								: constructor  set up Atom_Person intance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Contributor.html#method__construct">Atom_Contributor::__construct()</a>
+								: constructor  set up an Atom_Contributor instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Author.html#method__construct">Atom_Author::__construct()</a>
+								: constructor  set up an Atom_Author instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Feed.html#method__construct">Atom_Feed::__construct()</a>
+								: constuctor  set up an Atom_Feed instance
+							</li>
+					<li>
+				<a href="../Atom/Atom_Entry.html#method__construct">Atom_Entry::__construct()</a>
+								: constructor  set up an Atom_Entry instance
+							</li>
+				</ul>
+	</div>
+<a name="methodadd" id="add"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">add</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a78">78</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">add an element to a Atom_Element/DOMDocument</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">example:</span> example not found</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			add
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$dom</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">DOMDocument</span>
+				<span class="var-name">$dom</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodaddElement" id="addElement"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">addElement</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a89">89</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">append a DOMElement node in the DOMDocument  after the root node if it exists, or by creating it</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			addElement
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">DOMElement</span>
+				<span class="var-name">$element</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodget" id="get"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">get</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a416">416</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">return an Atom_* instance depending on the tag name</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Atom_*</span>
+		<span class="method-name">
+			get
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$tagName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetElement" id="getElement"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getElement</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a180">180</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">return an Atom_Element or null from a tag name</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../Atom/Atom_Element.html">Atom_Element</a></span>
+		<span class="method-name">
+			getElement
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$tagName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetElements" id="getElements"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getElements</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a199">199</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">return an array of Atom_Element from a tag name  TODO optimiser</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Array</span>
+		<span class="method-name">
+			getElements
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$tagName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinit" id="init"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">init</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a165">165</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">set up a instance by replacing the root element  by a given DOMElement</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			init
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$element</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">DOMElement</span>
+				<span class="var-name">$element</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodset" id="set"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">set</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a297">297</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">append a child to a markup by giving the name of the tag name and the element to append</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			set
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$tagName</span>			</li>
+					<li>
+				<span class="var-type">DOMElement</span>
+				<span class="var-name">$element</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetAttributes" id="setAttributes"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setAttributes</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a270">270</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">set a list of attibutes in the Atom_Element</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">example:</span> example not found</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setAttributes
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$attributes</span> = <span class="var-default">array()</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$attributes</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtoString" id="toString"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">toString</span> (line <span class="line-number"><a href="../__filesource/fsource_Atom__Element.php.html#a433">433</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">return the nodeValue of an root element</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			toString
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../Atom/Atom_Person.html#methodtoString">Atom_Person::toString()</a>
+								: return a string representating the display of an atom:person (author or contributor)
+							</li>
+				</ul>
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname">DOMDocument (Internal Class)</span></p>
+					<blockquote>
+													<img src="../media/images/Constructor.png" alt=" "/>
+							<span class="method-name">constructor __construct (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">adoptNode (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">appendChild (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">C14N (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">C14NFile (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">cloneNode (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">compareDocumentPosition (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">createAttribute (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">createAttributeNS (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">createCDATASection (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">createComment (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">createDocumentFragment (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">createElement (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">createElementNS (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">createEntityReference (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">createProcessingInstruction (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">createTextNode (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">getElementById (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">getElementsByTagName (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">getElementsByTagNameNS (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">getFeature (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">getNodePath (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">getUserData (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">hasAttributes (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">hasChildNodes (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">importNode (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">insertBefore (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">isDefaultNamespace (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">isEqualNode (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">isSameNode (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">isSupported (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">load (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">loadHTML (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">loadHTMLFile (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">loadXML (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">lookupNamespaceUri (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">lookupPrefix (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">normalize (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">normalizeDocument (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">registerNodeClass (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">relaxNGValidate (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">relaxNGValidateSource (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">removeChild (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">renameNode (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">replaceChild (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">save (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">saveHTML (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">saveHTMLFile (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">saveXML (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">schemaValidate (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">schemaValidateSource (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">setUserData (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">validate (  )</span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name">xinclude (  )</span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+	
+	<p class="notes" id="credit">
+		Documentation generated on Tue, 21 Oct 2008 10:10:46 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.2</a>
+	</p>
+	</div></body>
+</html>

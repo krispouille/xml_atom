@@ -19,13 +19,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:rights element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.rights
- * @example valid atom:rights element 
- * <rights>All right reserved</rights>
- * 
- * @example valid Atom_Rights element
- * <code>
- * $rights = new Atom_Rights('All rights reserved');
- * </code> 
+ * @example ../../fixtures/rights.xml atom:rights (xml version)
+ * @example ../../fixtures/rights.php atom:rights (php version) 
  */
 class Atom_Rights extends Atom_Text
 {

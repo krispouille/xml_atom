@@ -17,6 +17,6 @@ class AuthorTest extends PHPUnit_Framework_TestCase
         $xml=$this->fixture->saveXml();
         $temp=Atom_Element::fromXml($xml);
         $this->assertEquals($xml, $temp->saveXML());
-    }
+    }    
 }
 ?>

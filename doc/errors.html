@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>phpDocumentor Parser Errors and Warnings</title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						<a href="#Post-parsing">Post-parsing</a><br>
+<a href="#Category.php">Category.php</a><br>
+<a href="#Content.php">Content.php</a><br>
+<a href="#Contributor.php">Contributor.php</a><br>
+<a href="#Date.php">Date.php</a><br>
+<a href="#Element.php">Element.php</a><br>
+<a href="#Entry.php">Entry.php</a><br>
+<a href="#Exception.php">Exception.php</a><br>
+<a href="#Feed.php">Feed.php</a><br>
+<a href="#Generator.php">Generator.php</a><br>
+<a href="#Icon.php">Icon.php</a><br>
+<a href="#Id.php">Id.php</a><br>
+<a href="#Link.php">Link.php</a><br>
+<a href="#Logo.php">Logo.php</a><br>
+<a href="#Person.php">Person.php</a><br>
+<a href="#Published.php">Published.php</a><br>
+<a href="#Rights.php">Rights.php</a><br>
+<a href="#Source.php">Source.php</a><br>
+<a href="#Subtitle.php">Subtitle.php</a><br>
+<a href="#Summary.php">Summary.php</a><br>
+<a href="#Text.php">Text.php</a><br>
+<a href="#Title.php">Title.php</a><br>
+<a href="#Updated.php">Updated.php</a><br>
+<a name="Post-parsing"></a>
+<h1>Post-parsing</h1>
+<h2>Warnings:</h2><br>
+<b>Warning</b> - class Atom_Element in package Atom parent not found in @see parent::__construct()<br>
+<b>Warning</b> - class Atom_Element in package Atom parent not found in @see parent::__construct()<br>
+<a name="Author.php"></a>
+<h1>Author.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 29</b> - no @package tag was used in a DocBlock for class Atom_Author<br>
+<a name="Category.php"></a>
+<h1>Category.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 26</b> - no @package tag was used in a DocBlock for class Atom_Category<br>
+<a name="Content.php"></a>
+<h1>Content.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 35</b> - example file "valid atom:content element
+ <content type="xhtml" xml:lang="en"
+     xml:base="http://diveintomark.org/">
+     <div xmlns="http://www.w3.org/1999/xhtml">
+       <p><i>[Update: The Atom draft is finished.]</i></p>
+     </div>
+ </content>" does not exist<br>
+<b>Warning on line 35</b> - example file "valid Atom_Content element
+ <code>
+ $content = new Atom_Content('<p><i>[Update: The Atom draft is finished.]</i></p>',array('type'=>'xhtml', 'xml:lang'=>'en', 'xml:base'=>'http://diveintomark.org/');
+ </code>" does not exist<br>
+<b>Warning on line 36</b> - no @package tag was used in a DocBlock for class Atom_Content<br>
+<a name="Contributor.php"></a>
+<h1>Contributor.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 27</b> - no @package tag was used in a DocBlock for class Atom_Contributor<br>
+<a name="Date.php"></a>
+<h1>Date.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 24</b> - no @package tag was used in a DocBlock for class Atom_Date<br>
+<a name="Element.php"></a>
+<h1>Element.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Exception.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 48</b> - no @package tag was used in a DocBlock for class Atom_Element<br>
+<b>Warning on line 61</b> - example file "$feed = new Atom_Element('feed')
+ is similar to
+ $feed = new DOMDocument;
+ $feed->appendChild(new DOMElement('feed'))" does not exist<br>
+<b>Warning on line 77</b> - example file "$feed->add(new Atom_Element('title'));" does not exist<br>
+<b>Warning on line 225</b> - example file "$obj = Atom_Element::fromXml('<?xml version="1.0" ?><feed></feed>');
+ $obj become an Atom_Feed instance" does not exist<br>
+<b>Warning on line 249</b> - example file "$obj = Atom_Element::fromXmlFile($path);
+ $obj become an Atom_* instance" does not exist<br>
+<b>Warning on line 269</b> - example file "$feed->setAttributes(array('class'=>'var1', 'id'=>'myid'))" does not exist<br>
+<a name="Entry.php"></a>
+<h1>Entry.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 25</b> - no @package tag was used in a DocBlock for class Atom_Entry<br>
+<a name="Exception.php"></a>
+<h1>Exception.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 22</b> - no @package tag was used in a DocBlock for class Atom_Exception<br>
+<a name="Feed.php"></a>
+<h1>Feed.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 79</b> - example file "a valid Atom_Entry element
+ <code>
+ $feed = new Atom_Feed();
+ $feed->setTitle(new Atom_Title('Example Feed'));
+ $feed->setUpdated(new Atom_Updated(new DateTime('2003-12-13 18:30:02')));
+ $feed->addAuthor(new Atom_Author('John Doe'));
+ $feed->setId(new Atom_Id(urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6));
+
+ $entry = new Atom_Entry();
+ $entry->setTitle(new Atom_Title('Atom draft-07 snapshot'));
+ $entry->addLink(new Atom_Link('',array('rel'=>'alternate','type'=>'text/html', 'href'=>'http://example.org/2005/04/02/atom')));
+ $entry->addLink(new Atom_Link('',array('rel'=>'enclosure','type'=>'audio/mpeg', 'length'=>'1337', 'href'=>'http://example.org/audio/ph34r_my_podcast.mp3')));
+ $entry->setId(new Atom_Id('tag:example.org,2003:3.2397'));
+ $entry->setUpdated(new Atom_Updated(new DateTime('2005-07-31 12:29:29')));
+ $entry->setPublished(new Atom_Published(new DateTime('2003-12-13 08:29:29 -04:00')));
+ $entry->addAuthor(new Atom_Author('Mark Pilgrim','f8dy@example.org','http://example.org'));
+ $entry->addContributor(new Atom_Contributor('Sam Ruby'));
+ $entry->addContributor(new Atom_Contributor('Joe Gregorio'));
+ $entry->setContent('<p><i>[Update: The Atom draft is finished.]</i></p>');
+
+ $feed->setEntry($entry);
+ </code>" does not exist<br>
+<b>Warning on line 79</b> - example file "a valid atom:feed element
+ <feed xmlns='http://www.w3.org/2005/Atom'>
+ <title>Example feed</title>
+ <link href='http://example.org/' />
+ <updated>2003-12-13T18:30:02Z</updated>
+ <author>
+ <name>John Doe</name>
+ </author>
+ <entry>
+   <title>Atom draft-07 snapshot</title>
+   <link rel="alternate" type="text/html" href="http://example.org/2005/04/02/atom"/>
+   <link rel="enclosure" type="audio/mpeg" length="1337" href="http://example.org/audio/ph34r_my_podcast.mp3"/>
+   <id>tag:example.org,2003:3.2397</id>
+   <updated>2005-07-31T12:29:29Z</updated>
+   <published>2003-12-13T08:29:29-04:00</published>
+   <author>
+     <name>Mark Pilgrim</name>
+     <uri>http://example.org/</uri>
+     <email>f8dy@example.com</email>
+   </author>
+   <contributor>
+     <name>Sam Ruby</name>
+   </contributor>
+   <contributor>
+     <name>Joe Gregorio</name>
+   </contributor>
+   <content type="xhtml" xml:lang="en"
+    xml:base="http://diveintomark.org/">
+     <div xmlns="http://www.w3.org/1999/xhtml">
+       <p><i>[Update: The Atom draft is finished.]</i></p>
+     </div>
+   </content>
+ </entry>
+ </feed>" does not exist<br>
+<b>Warning on line 80</b> - no @package tag was used in a DocBlock for class Atom_Feed<br>
+<a name="Generator.php"></a>
+<h1>Generator.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 27</b> - example file "valid atom:category element" does not exist<br>
+<b>Warning on line 28</b> - no @package tag was used in a DocBlock for class Atom_Generator<br>
+<a name="Icon.php"></a>
+<h1>Icon.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 26</b> - no @package tag was used in a DocBlock for class Atom_Icon<br>
+<a name="Id.php"></a>
+<h1>Id.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 26</b> - no @package tag was used in a DocBlock for class Atom_Id<br>
+<a name="Link.php"></a>
+<h1>Link.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 26</b> - no @package tag was used in a DocBlock for class Atom_Link<br>
+<a name="Logo.php"></a>
+<h1>Logo.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 25</b> - no @package tag was used in a DocBlock for class Atom_Logo<br>
+<a name="Person.php"></a>
+<h1>Person.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 24</b> - no @package tag was used in a DocBlock for class Atom_Person<br>
+<a name="Published.php"></a>
+<h1>Published.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 26</b> - no @package tag was used in a DocBlock for class Atom_Published<br>
+<a name="Rights.php"></a>
+<h1>Rights.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 25</b> - no @package tag was used in a DocBlock for class Atom_Rights<br>
+<a name="Source.php"></a>
+<h1>Source.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 42</b> - example file "valid atom:source element
+  <source>
+   <title>this is a title</title>
+   <id>http://www.validome.org/id/1234</id>
+   <updated>2006-10-10T17:46:27Z</updated>
+   <author>
+     <name>test name</name>
+   </author>
+ </source>" does not exist<br>
+<b>Warning on line 42</b> - example file "valid Atom_Category element
+ <code>
+ $source = new Atom_Source();
+ $source->setTitle('this is a title');
+ $source->setId('http://www.validome.org/id/1234');
+ $source->setUpdated(new Atom_Updated(new DateTime('2006-10-10 17:46:27')));
+ $source->addAuthor(new Atom_Author('test name'));
+ </code>" does not exist<br>
+<b>Warning on line 43</b> - no @package tag was used in a DocBlock for class Atom_Source<br>
+<a name="Subtitle.php"></a>
+<h1>Subtitle.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 26</b> - no @package tag was used in a DocBlock for class Atom_Subtitle<br>
+<a name="Summary.php"></a>
+<h1>Summary.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 30</b> - example file "valid atom:summary element
+ <summary>http://www.validome.org/small.jpg</summary>" does not exist<br>
+<b>Warning on line 30</b> - example file "valid Atom_Summary element
+ <code>
+ $summary = new Atom_Summary('http://www.validome.org/small.jpg');
+ </code>" does not exist<br>
+<b>Warning on line 31</b> - no @package tag was used in a DocBlock for class Atom_Summary<br>
+<a name="Text.php"></a>
+<h1>Text.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 24</b> - no @package tag was used in a DocBlock for class Atom_Text<br>
+<a name="Title.php"></a>
+<h1>Title.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 25</b> - no @package tag was used in a DocBlock for class Atom_Title<br>
+<a name="Updated.php"></a>
+<h1>Updated.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - Page-level DocBlock precedes "require_once dirname(__FILE__).'/Element.php'", use another DocBlock to document the source element<br>
+<b>Warning on line 26</b> - no @package tag was used in a DocBlock for class Atom_Updated<br>
+	<p class="notes" id="credit">
+		Documentation generated on Tue, 21 Oct 2008 10:10:50 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.2</a>
+	</p>
+	</body>
+</html>

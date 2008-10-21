@@ -19,13 +19,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:subtitle element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.subtitle
- * @example valid atom:subtitle element
- * <subtitle>http://www.validome.org/small.jpg</subtitle>
- * 
- * @example valid Atom_Subtitle element
- * <code>
- * $subtitle = new Atom_Subtitle('http://www.validome.org/small.jpg');
- * </code> 
+ * @example ../../fixtures/subtitle.xml atom:subtitle (xml version)
+ * @example ../../fixtures/subtitle.php atom:subtitle (php version)
  */
 
 class Atom_Subtitle extends Atom_Text
