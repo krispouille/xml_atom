@@ -19,6 +19,9 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:summary element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.summary
+ * 
+   @example ../../fixtures/summary.xml atom:summary (xml version) 
+ * @example ../../fixtures/summary.php atom:summary (php version)
  * @example valid atom:summary element
  * <summary>http://www.validome.org/small.jpg</summary>
  * 

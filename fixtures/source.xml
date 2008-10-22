@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<source>
+  <title>
+    this is a title
+  </title>
+  <id>
+    http://www.validome.org/id/1234
+  </id>
+  <updated>
+    2006-10-10T17:46:27Z
+  </updated>
+  <author>
+    <name>
+      test name
+    </name>
+  </author>
+</source>
+ 

@@ -32,34 +32,37 @@
 <li><div class="src-line"><a name="a19"></a><span class="src-doc">/**</span></div></li>
 <li><div class="src-line"><a name="a20"></a><span class="src-doc">&nbsp;*&nbsp;this&nbsp;class&nbsp;provides&nbsp;methods&nbsp;to&nbsp;handle&nbsp;an&nbsp;atom:summary&nbsp;element</span></div></li>
 <li><div class="src-line"><a name="a21"></a><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@link</span><span class="src-doc">&nbsp;http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.summary</span></div></li>
-<li><div class="src-line"><a name="a22"></a><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@example</span><span class="src-doc">&nbsp;valid&nbsp;atom:summary&nbsp;element</span></div></li>
-<li><div class="src-line"><a name="a23"></a><span class="src-doc">&nbsp;*&nbsp;&nbsp;&lt;summary&gt;http://www.validome.org/small.jpg&lt;/summary&gt;</span></div></li>
-<li><div class="src-line"><a name="a24"></a><span class="src-doc">&nbsp;*&nbsp;</span></div></li>
-<li><div class="src-line"><a name="a25"></a><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@example</span><span class="src-doc">&nbsp;valid&nbsp;Atom_Summary&nbsp;element</span></div></li>
-<li><div class="src-line"><a name="a26"></a><span class="src-doc">&nbsp;*&nbsp;&nbsp;&lt;code&gt;</span></div></li>
-<li><div class="src-line"><a name="a27"></a><span class="src-doc">&nbsp;*&nbsp;&nbsp;$summary&nbsp;=&nbsp;new&nbsp;Atom_Summary('http://www.validome.org/small.jpg');</span></div></li>
-<li><div class="src-line"><a name="a28"></a><span class="src-doc">&nbsp;*&nbsp;&nbsp;&lt;/code&gt;</span></div></li>
-<li><div class="src-line"><a name="a29"></a><span class="src-doc">&nbsp;*/</span></div></li>
-<li><div class="src-line"><a name="a30"></a>&nbsp;</div></li>
-<li><div class="src-line"><a name="a31"></a><span class="src-key">class&nbsp;</span><a href="../Atom/Atom_Summary.html">Atom_Summary</a>&nbsp;<span class="src-key">extends&nbsp;</span><a href="../Atom/Atom_Text.html">Atom_Text</a></div></li>
-<li><div class="src-line"><a name="a32"></a><span class="src-sym">{</span></div></li>
-<li><div class="src-line"><a name="a33"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-doc">/**</span></div></li>
-<li><div class="src-line"><a name="a34"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Enter&nbsp;description&nbsp;here...</span></div></li>
-<li><div class="src-line"><a name="a35"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</span></div></li>
-<li><div class="src-line"><a name="a36"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;</span><span class="src-doc-coretag">@param&nbsp;</span><span class="src-doc-type">string&nbsp;</span><span class="src-doc-var">$text&nbsp;</span></div></li>
-<li><div class="src-line"><a name="a37"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;</span><span class="src-doc-coretag">@param&nbsp;</span><span class="src-doc-type">array&nbsp;</span><span class="src-doc-var">$attributes&nbsp;</span></div></li>
-<li><div class="src-line"><a name="a38"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;</span><span class="src-doc-coretag">@param&nbsp;</span><span class="src-doc-type">boolean&nbsp;</span><span class="src-doc-var">$cdata&nbsp;</span></div></li>
-<li><div class="src-line"><a name="a39"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;</span><span class="src-doc-coretag">@access</span><span class="src-doc">&nbsp;public</span></div></li>
-<li><div class="src-line"><a name="a40"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span></div></li>
-<li><div class="src-line"><a name="a41"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">public&nbsp;</span><span class="src-key">function&nbsp;</span><a href="../Atom/Atom_Summary.html#method__construct">__construct</a><span class="src-sym">(</span><span class="src-var">$text</span>=<span class="src-str">''</span><span class="src-sym">,</span><span class="src-key">Array&nbsp;</span><span class="src-var">$attributes</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">,</span><span class="src-var">$cdata</span>=<span class="src-num">0</span><span class="src-sym">)</span></div></li>
-<li><div class="src-line"><a name="a42"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">{</span></div></li>
-<li><div class="src-line"><a name="a43"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-id">parent</span><span class="src-sym">::</span><a href="../Atom/Atom_Text.html#method__construct">__construct</a><span class="src-sym">(</span><span class="src-str">'summary'</span><span class="src-sym">,&nbsp;</span><span class="src-var">$text</span><span class="src-sym">,&nbsp;</span><span class="src-var">$attributes</span><span class="src-sym">,&nbsp;</span><span class="src-var">$cdata</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
-<li><div class="src-line"><a name="a44"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">}</span></div></li>
-<li><div class="src-line"><a name="a45"></a><span class="src-sym">}</span></div></li>
+<li><div class="src-line"><a name="a22"></a><span class="src-doc">&nbsp;*&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a23"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;@example&nbsp;../../fixtures/summary.xml&nbsp;atom:summary&nbsp;(xml&nbsp;version)&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a24"></a><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@example</span><span class="src-doc">&nbsp;../../fixtures/summary.php&nbsp;atom:summary&nbsp;(php&nbsp;version)</span></div></li>
+<li><div class="src-line"><a name="a25"></a><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@example</span><span class="src-doc">&nbsp;valid&nbsp;atom:summary&nbsp;element</span></div></li>
+<li><div class="src-line"><a name="a26"></a><span class="src-doc">&nbsp;*&nbsp;&nbsp;&lt;summary&gt;http://www.validome.org/small.jpg&lt;/summary&gt;</span></div></li>
+<li><div class="src-line"><a name="a27"></a><span class="src-doc">&nbsp;*&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a28"></a><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@example</span><span class="src-doc">&nbsp;valid&nbsp;Atom_Summary&nbsp;element</span></div></li>
+<li><div class="src-line"><a name="a29"></a><span class="src-doc">&nbsp;*&nbsp;&nbsp;&lt;code&gt;</span></div></li>
+<li><div class="src-line"><a name="a30"></a><span class="src-doc">&nbsp;*&nbsp;&nbsp;$summary&nbsp;=&nbsp;new&nbsp;Atom_Summary('http://www.validome.org/small.jpg');</span></div></li>
+<li><div class="src-line"><a name="a31"></a><span class="src-doc">&nbsp;*&nbsp;&nbsp;&lt;/code&gt;</span></div></li>
+<li><div class="src-line"><a name="a32"></a><span class="src-doc">&nbsp;*/</span></div></li>
+<li><div class="src-line"><a name="a33"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a34"></a><span class="src-key">class&nbsp;</span><a href="../Atom/Atom_Summary.html">Atom_Summary</a>&nbsp;<span class="src-key">extends&nbsp;</span><a href="../Atom/Atom_Text.html">Atom_Text</a></div></li>
+<li><div class="src-line"><a name="a35"></a><span class="src-sym">{</span></div></li>
+<li><div class="src-line"><a name="a36"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-doc">/**</span></div></li>
+<li><div class="src-line"><a name="a37"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Enter&nbsp;description&nbsp;here...</span></div></li>
+<li><div class="src-line"><a name="a38"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</span></div></li>
+<li><div class="src-line"><a name="a39"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;</span><span class="src-doc-coretag">@param&nbsp;</span><span class="src-doc-type">string&nbsp;</span><span class="src-doc-var">$text&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a40"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;</span><span class="src-doc-coretag">@param&nbsp;</span><span class="src-doc-type">array&nbsp;</span><span class="src-doc-var">$attributes&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a41"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;</span><span class="src-doc-coretag">@param&nbsp;</span><span class="src-doc-type">boolean&nbsp;</span><span class="src-doc-var">$cdata&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a42"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;</span><span class="src-doc-coretag">@access</span><span class="src-doc">&nbsp;public</span></div></li>
+<li><div class="src-line"><a name="a43"></a><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span></div></li>
+<li><div class="src-line"><a name="a44"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">public&nbsp;</span><span class="src-key">function&nbsp;</span><a href="../Atom/Atom_Summary.html#method__construct">__construct</a><span class="src-sym">(</span><span class="src-var">$text</span>=<span class="src-str">''</span><span class="src-sym">,</span><span class="src-key">Array&nbsp;</span><span class="src-var">$attributes</span>=<span class="src-key">array</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">,</span><span class="src-var">$cdata</span>=<span class="src-num">0</span><span class="src-sym">)</span></div></li>
+<li><div class="src-line"><a name="a45"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">{</span></div></li>
+<li><div class="src-line"><a name="a46"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-id">parent</span><span class="src-sym">::</span><a href="../Atom/Atom_Text.html#method__construct">__construct</a><span class="src-sym">(</span><span class="src-str">'summary'</span><span class="src-sym">,&nbsp;</span><span class="src-var">$text</span><span class="src-sym">,&nbsp;</span><span class="src-var">$attributes</span><span class="src-sym">,&nbsp;</span><span class="src-var">$cdata</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a47"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">}</span></div></li>
+<li><div class="src-line"><a name="a48"></a><span class="src-sym">}</span></div></li>
 </ol></div>
 </div>
 	<p class="notes" id="credit">
-		Documentation generated on Tue, 21 Oct 2008 10:10:49 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.2</a>
+		Documentation generated on Wed, 22 Oct 2008 21:39:56 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.2</a>
 	</p>
 	</body>
 </html>

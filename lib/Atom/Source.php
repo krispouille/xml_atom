@@ -20,24 +20,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:source element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.source
- * @example valid atom:source element
- *  <source>
- *   <title>this is a title</title>
- *   <id>http://www.validome.org/id/1234</id>
- *   <updated>2006-10-10T17:46:27Z</updated>
- *   <author>
- *     <name>test name</name>
- *   </author>
- * </source>
- *
- * @example valid Atom_Category element
- * <code>
- * $source = new Atom_Source();
- * $source->setTitle('this is a title');
- * $source->setId('http://www.validome.org/id/1234');
- * $source->setUpdated(new Atom_Updated(new DateTime('2006-10-10 17:46:27')));
- * $source->addAuthor(new Atom_Author('test name'));
- * </code> 
+ * @example ../../fixtures/source.xml atom:source (xml version) 
+ * @example ../../fixtures/source.php atom:source (php version)
  */ 
 
 class Atom_Source extends Atom_Element

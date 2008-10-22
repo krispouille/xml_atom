@@ -19,18 +19,8 @@ require_once dirname(__FILE__).'/Element.php';
 /**
  * this class provides methods to handle an atom:content element
  * @link http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.content
- * @example valid atom:content element 
- * <content type="xhtml" xml:lang="en" 
- *     xml:base="http://diveintomark.org/">
- *     <div xmlns="http://www.w3.org/1999/xhtml">
- *       <p><i>[Update: The Atom draft is finished.]</i></p>
- *     </div>
- * </content>
- *
- * @example valid Atom_Content element
- * <code>
- * $content = new Atom_Content('<p><i>[Update: The Atom draft is finished.]</i></p>',array('type'=>'xhtml', 'xml:lang'=>'en', 'xml:base'=>'http://diveintomark.org/');
- * </code> 
+ * @example ../../fixtures/content.xml atom:content (xml version)
+ * @example ../../fixtures/content.php atom:content (php version) 
  */
 
 class Atom_Content extends Atom_Text
